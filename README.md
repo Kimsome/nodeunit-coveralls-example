@@ -1,6 +1,6 @@
 # nodeunit-coveralls-example
-Example showing how to use the undeunit and how to output coverage data to coveralls
 
+[![Build Status](https://travis-ci.org/Kimsome/nodeunit-coveralls-example.svg?branch=main)](https://travis-ci.org/Kimsome/nodeunit-coveralls-example)
 
 ## Usage
 
