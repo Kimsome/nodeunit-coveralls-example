@@ -1,0 +1,31 @@
+{
+    "name": "nodeunit-coveralls-example",
+    "version": "0.0.0",
+    "description": "Example showing how to use the undeunit and how to output coverage data to coveralls",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "test-cover": "istanbul cover mocha test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kimsome/nodeunit-coveralls-example.git"
+    },
+    "keywords": [
+        "nodeunit",
+        "coveralls"
+    ],
+    "author": "Kimsome",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Kimsome/nodeunit-coveralls-example/issues"
+    },
+    "homepage": "https://github.com/Kimsome/nodeunit-coveralls-example#readme",
+    "dependencies": {
+        "istanbul": "^0.4.5",
+        "should": "^13.2.3"
+    },
+    "devDependencies": {
+        "mocha": "^7.1.1"
+    }
+}
